@@ -1,0 +1,110 @@
+body {
+  background: url("../images/dave-hoefler-suf2PfBNdx4-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.inputF {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 10vh;
+  align-items: center;
+  gap: 1rem;
+  
+}
+
+.inputF input {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 0.7rem;
+  font-size: 1.5rem;
+}
+
+.inputF button {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  padding: 0.7rem;
+}
+
+.loadingContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.loadingContainer p {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+.errorContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.errorContainer h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  margin-left: 1rem;
+}
+
+.weatherCard {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.weatherCard h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.weatherCard p {
+  font-size: 1.2rem;
+}
+
+.WeatherDetail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+}
+
+iframe {
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+
+}
+
+@media screen and (max-width: 736px) {
+  .WeatherDetail {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .iframe {
+    width: 100%;
+    height: 300px;
+  }
+}
