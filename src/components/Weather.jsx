@@ -9,7 +9,6 @@ export const Weather = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
-  const [locationData, seLocationData] = useState(null);
 
   useEffect(() => {}, []);
   function getLocationData(lat, lon) {
