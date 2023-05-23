@@ -10,7 +10,7 @@ Runs the app in the development mode.
  ## Backend Api 
  [Backend Api Link](https://weatherbackenda.onrender.com/)
  
- [Backend Repo Link](https://github.com/Chhattoo25/weatherBackend))
+ [Backend Repo Link](https://github.com/Chhattoo25/weatherBackend)
 ## `About Project`
  - This is Weather application in which You can search with any city name then you get Weather Details of your city.
  -  Clicking on current location you can get your current location weather details.
